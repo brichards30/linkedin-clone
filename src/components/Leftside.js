@@ -42,7 +42,13 @@ const UserInfo = styled.div`
     word-break: break-word;
 `;
 
-const CardBackground = styled.div``;
+const CardBackground = styled.div`
+    background: url("/images/card-bg.svg");
+    background-position: center;
+    background-size: 462px;
+    height: 54px;
+    margin: -12px -12px 0;
+`;
 
 const Photo = styled.div``;
 
